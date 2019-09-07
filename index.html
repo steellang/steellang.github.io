@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Libre+Franklin&display=swap" rel="stylesheet">
+</head>
+<style>
+html, body {height: 100%; widows: 100%;}
+body {font-family: 'PT Sans', sans-serif;color: #222;background-color: rgba(38, 100, 122, 0.26)}
+.lh-text {line-height:1.425rem}
+.f9 {font-size: 1.1rem;}
+ul {padding-left:1rem;}
+.code {
+font-family: Menlo, monospace;
+font-size: 0.85rem;
+}
+</style>
+<body>
+<header class="pv5">
+<div>
+<div class="tc">
+<p class="f3 pb4">The Steel programming language</p>
+<a href="https://www.reddit.com/r/steellang/" class="b pv2 ph3 ba br2 bw1 b--silver gray link">Join the discussion</a>
+</div>
+</header>
+
+<main class="lh-text ph3 ph4-l mw8 center">
+<div class="flex-m flex-l justify-between mv4">
+<div class="f9 mv2 pr2 w-100 w-60-l" style="line-height:1.6rem">
+<b>Steel</b> is an open source, general-purpose programming language propose to be friendly and efficient
+as C that helps you write better coding and tooling, build from scratch for a better developer experience.
+</div>
+
+<div class="w-100  w-80-m w-40-l mt3 mb2 pl3 ba b--gray o-90 bg-near-black" style="color:#eee;overflow: auto">
+<pre class="code">
+main {
+  mut ideas = ['web', 'network', 'gaming']
+  ideas use s {
+    print 'Steel for ${s} and more!'
+  }
+}
+</pre>
+</div>
+</div>
+</div>
+
+<div class="pb3">
+<div class="f4 b">Why Steel?</div>
+<p>
+The idea of Steel as a community contributions project, aims to provide programmers an unprecedented combination of
+efficiency and expressiveness to build complex software fast; and it's also an ambitious effort to strike a balance
+between readability syntax and achievable performance that inherited some of the good ideas from other languages.</p>
+<p>Currently in pre-alpha stage.</p>
+
+<div class="f4 mt4 b">Discussion</div>
+<p>The community can be reached at:</p>
+<a class="link" href="https://www.reddit.com/r/steellang/">Reddit</a>
+</div>
+
+<div class="">
+<div class="f4 mt4 b">Kickstart community discussion on Steel design language specification</div>
+<p>Engage in discussion on how Steel could be used in your projects and the community can propose design for the
+standard libraries that will specifically build for:</p>
+<ul>
+<li>Gaming</li>
+<li>Security</li>
+<li>Scientific</li>
+<li>Networking</li>
+<li>Cloud computing</li>
+<li>Web development</li>
+<li>Embedded systems</li>
+<li>Desktop and mobility</li>
+<li>System programming</li>
+</ul>
+<p>Target platforms: Linux, macOS, Windows and BSD. More platforms will be planned.</p>
+<p>If there is an interesting topic, tackle design complexity or propose feature, join us and hear what you like to improve!</p>
+</div>
+
+<div class="mv4">
+<div class="f4 mv2 b">License</div>
+<p>Open source under MIT Licensed</p>
+</div>
+</main>
+<footer class="mv4"><div class="mw8 center tc">&copy 2019 James Li</div></footer>
+</body>
+</html>
